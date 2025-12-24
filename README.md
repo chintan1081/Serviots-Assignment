@@ -52,14 +52,19 @@ This project contains a full-stack application with a Node.js/Express backend an
    ```bash
    npm install
    ```
-
-3. **Run the frontend development server:**
+3. **Configure Environment Variables:**
+   Create a `.env` file in the `frontend` directory with the following variables:
+   ```env
+   VITE_BACKEND_URL="http://localhost:3000/"
+   ```
+   
+4. **Run the frontend development server:**
    ```bash
    npm run dev
    ```
    The application generally runs on `http://localhost:5173`.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js**
